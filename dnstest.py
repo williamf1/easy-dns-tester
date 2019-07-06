@@ -34,7 +34,7 @@ answers = res.query(website1)
 
 
 #dns 1.1.1.1
-
+ 
 
 res = resolver.Resolver()
 

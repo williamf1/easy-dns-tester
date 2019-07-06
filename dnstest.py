@@ -31,16 +31,9 @@ answers = res.query(website1)
 
 #-----------------------------------------------
 
-print("    ")
-print("    ")
 
 
 #dns 1.1.1.1
-
-
-
-print("    ")
-print("    ")
 
 
 res = resolver.Resolver()

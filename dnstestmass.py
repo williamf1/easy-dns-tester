@@ -1,10 +1,8 @@
 from dns import resolver
-
 #dns user input
 dnsserver=input("your chosen dns server ip=")
 res = resolver.Resolver()
 res.nameservers = [dnsserver]
-
 #dns 1.1.1.1
 res2 = resolver.Resolver()
 res2.nameservers = ["1.1.1.1"]
